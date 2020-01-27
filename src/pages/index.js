@@ -1,12 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Container from "../components/container"
+import Layout from "../components/layout"
 
 export default () => (
-  <Container>
-    <h1>About CSS Modules</h1>
-    <p>CSS Modules are cool</p>
+  <Layout>
+    <p>Hello world</p>
     <Link to="/about">About</Link>
-  </Container>
+  </Layout>
 )
